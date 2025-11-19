@@ -11,28 +11,28 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-slate-800 text-cyan-300 border border-cyan-400/20">
-              AI Agency for SMBs
+              Partner for growing businesses
             </span>
             <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white">
-              Technical muscle to power your AI roadmap
+              We learn your challenges and apply the right tech to solve them
             </h1>
             <p className="mt-6 text-lg text-slate-300 leading-relaxed">
-              CloudEagle Consultants builds pragmatic, production-grade AI solutions for small and mid-sized businesses. We plug in as your senior AI engineering team and ship results fast.
+              CloudEagle Consultants partners with small and mid-sized teams to turn messy, real problems into practical results. We listen first, then bring senior technical judgment to design simple, effective solutions your team can run with.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
               <a href="#contact" className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-900 font-semibold shadow hover:opacity-90 transition">
-                Book a strategy call
+                Book a conversation
               </a>
               <a href="#services" className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-slate-800 text-slate-100 border border-white/10 hover:bg-slate-700 transition">
-                Explore services
+                See how we help
               </a>
             </div>
             <div className="mt-8 flex items-center gap-6 text-slate-400 text-sm">
-              <div>Fast iteration</div>
+              <div>We start with your goals</div>
               <div className="w-1 h-1 rounded-full bg-slate-500" />
-              <div>Production focus</div>
+              <div>Clear, plain-language plans</div>
               <div className="w-1 h-1 rounded-full bg-slate-500" />
-              <div>Clear ROI</div>
+              <div>Measurable outcomes</div>
             </div>
           </div>
 
