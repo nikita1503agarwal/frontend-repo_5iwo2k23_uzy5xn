@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-slate-900 text-slate-100">
       {/* Background accents */}
-      <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_10%_-10%,rgba(34,211,238,0.08),transparent),radial-gradient(800px_400px_at_110%_10%,rgba(59,130,246,0.06),transparent)]" />
+      <div className="pointer-events-none fixed inset-0 -z-10 bg-[radial-gradient(1200px_600px_at_10%_-10%,rgba(56,189,248,0.08),transparent),radial-gradient(800px_400px_at_110%_10%,rgba(163,230,53,0.07),transparent)]" />
 
       <Navbar />
 

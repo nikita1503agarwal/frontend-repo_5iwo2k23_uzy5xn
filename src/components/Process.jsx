@@ -33,8 +33,8 @@ export default function Process(){
         <ol className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {steps.map(({step, title, desc}) => (
             <li key={step} className="relative rounded-2xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-900/60 p-6">
-              <div className="absolute -top-4 -left-4 h-10 w-10 rounded-xl bg-cyan-500/20 blur-xl" />
-              <span className="text-cyan-300 font-mono text-sm">{step}</span>
+              <div className="absolute -top-4 -left-4 h-10 w-10 rounded-xl bg-lime-400/20 blur-xl" />
+              <span className="text-sky-300 font-mono text-sm">{step}</span>
               <h3 className="mt-2 text-lg font-semibold text-white">{title}</h3>
               <p className="mt-2 text-slate-300 text-sm leading-relaxed">{desc}</p>
             </li>

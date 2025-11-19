@@ -34,8 +34,8 @@ export default function Services() {
 
         <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {services.map(({ icon: Icon, title, desc }) => (
-            <div key={title} className="rounded-2xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-900/60 p-6 hover:border-cyan-500/30 transition-colors">
-              <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-cyan-500/15 text-cyan-300 border border-cyan-400/20">
+            <div key={title} className="rounded-2xl border border-white/10 bg-gradient-to-b from-slate-900 to-slate-900/60 p-6 hover:border-lime-400/30 transition-colors">
+              <div className="inline-flex items-center justify-center h-12 w-12 rounded-lg bg-sky-400/15 text-sky-300 border border-sky-400/20">
                 <Icon className="h-6 w-6" />
               </div>
               <h3 className="mt-4 text-lg font-semibold text-white">{title}</h3>

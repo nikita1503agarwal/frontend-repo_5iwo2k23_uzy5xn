@@ -55,7 +55,7 @@ export default function Contact(){
             </div>
 
             <div className="mt-6 flex items-center gap-4">
-              <button type="submit" disabled={status==='loading'} className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-900 font-semibold shadow disabled:opacity-60">
+              <button type="submit" disabled={status==='loading'} className="inline-flex items-center justify-center px-6 py-3 rounded-md bg-gradient-to-r from-sky-400 to-lime-400 text-slate-900 font-semibold shadow disabled:opacity-60">
                 {status === 'loading' ? 'Sending…' : 'Send message'}
               </button>
               {status === 'success' && <span className="text-green-400 text-sm">Thanks! We’ll be in touch shortly.</span>}
@@ -73,7 +73,7 @@ export default function Contact(){
             </ul>
             <div className="mt-6">
               <div className="text-white font-semibold">Email</div>
-              <a href="mailto:hello@cloudeagle.ai" className="text-cyan-300">hello@cloudeagle.ai</a>
+              <a href="mailto:hello@cloudeagle.ai" className="text-sky-300">hello@cloudeagle.ai</a>
             </div>
           </div>
         </div>

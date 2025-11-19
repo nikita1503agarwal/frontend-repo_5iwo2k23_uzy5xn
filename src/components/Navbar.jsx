@@ -9,7 +9,7 @@ function NavLink({ href, children, onClick, active }) {
       className={[
         'relative px-3 py-2 rounded-md transition-colors',
         active
-          ? 'text-cyan-300'
+          ? 'text-lime-300'
           : 'text-slate-200 hover:text-white'
       ].join(' ')}
     >
@@ -18,7 +18,7 @@ function NavLink({ href, children, onClick, active }) {
         aria-hidden
         className={[
           'pointer-events-none absolute left-3 right-3 -bottom-[2px] h-[2px] rounded-full transition-all duration-300',
-          active ? 'bg-cyan-400/80' : 'bg-transparent'
+          active ? 'bg-lime-400/80' : 'bg-transparent'
         ].join(' ')}
       />
     </a>
@@ -89,7 +89,7 @@ export default function Navbar() {
         aria-hidden
       >
         <div
-          className="h-full bg-gradient-to-r from-cyan-400 to-blue-500 transition-[width] duration-200"
+          className="h-full bg-gradient-to-r from-lime-400 to-sky-400 transition-[width] duration-200"
           style={{ width: `${progress}%` }}
         />
       </div>
@@ -101,7 +101,7 @@ export default function Navbar() {
         ].join(' ')}>
           <a href="#home" className="flex items-center gap-2">
             <div className={[
-              'w-8 h-8 rounded-lg bg-gradient-to-tr from-cyan-400 to-blue-500 shadow-lg transition-transform',
+              'w-8 h-8 rounded-lg bg-gradient-to-tr from-lime-400 to-sky-400 shadow-lg transition-transform',
               scrolled ? 'scale-95' : 'scale-100'
             ].join(' ')}></div>
             <span className="text-white font-semibold tracking-tight">CloudEagle Consultants</span>
@@ -112,7 +112,7 @@ export default function Navbar() {
             <NavLink href="#benefits" active={activeId === 'benefits'}>Benefits</NavLink>
             <NavLink href="#process" active={activeId === 'process'}>Process</NavLink>
             <NavLink href="#contact" active={activeId === 'contact'}>Contact</NavLink>
-            <a href="#contact" className="ml-2 inline-flex items-center gap-2 bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-900 font-semibold px-4 py-2 rounded-md shadow hover:opacity-90 transition-opacity">
+            <a href="#contact" className="ml-2 inline-flex items-center gap-2 bg-gradient-to-r from-lime-400 to-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-md shadow hover:opacity-90 transition-opacity">
               Get a quote
             </a>
           </nav>
@@ -129,7 +129,7 @@ export default function Navbar() {
             <NavLink href="#services" onClick={handleNav} active={activeId === 'services'}>Services</NavLink>
             <NavLink href="#benefits" onClick={handleNav} active={activeId === 'benefits'}>Benefits</NavLink>
             <NavLink href="#process" onClick={handleNav} active={activeId === 'process'}>Process</NavLink>
-            <a href="#contact" onClick={handleNav} className="mt-2 inline-flex items-center justify-center bg-gradient-to-r from-cyan-400 to-blue-500 text-slate-900 font-semibold px-4 py-2 rounded-md shadow">
+            <a href="#contact" onClick={handleNav} className="mt-2 inline-flex items-center justify-center bg-gradient-to-r from-lime-400 to-sky-400 text-slate-900 font-semibold px-4 py-2 rounded-md shadow">
               Get a quote
             </a>
           </div>

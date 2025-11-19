@@ -31,6 +31,7 @@ export default function Benefits(){
             <div key={title} className="rounded-2xl border border-white/10 bg-slate-900/60 p-6">
               <h3 className="text-lg font-semibold text-white">{title}</h3>
               <p className="mt-2 text-slate-300 text-sm leading-relaxed">{desc}</p>
+              <div className="mt-4 h-1.5 w-16 rounded-full bg-gradient-to-r from-sky-400 to-lime-400" />
             </div>
           ))}
         </div>
